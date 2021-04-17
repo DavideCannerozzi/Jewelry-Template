@@ -1,0 +1,20 @@
+@import './variables';
+
+.footer{
+   background-color: $main_color;
+   li,a{
+      font-size:12px;
+      color:#d0c5b6ff;
+      line-height: 3;
+   }
+}
+
+.sub-footer{
+   background-color: #735D59;
+   color:#d0c5b6ff;
+   font-size:12px;
+   a{
+      color:#d0c5b6ff
+   }
+}
+

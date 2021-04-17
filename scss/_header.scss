@@ -1,0 +1,44 @@
+.logo{
+   background-color:#735D59;
+   font-family: 'MontserratBold';
+   a{
+      font-size:2rem
+   }
+}
+.nav-link{ font-family:'Miller' }
+.search{
+   width:150px;
+   border:none;
+   border-bottom:1px solid black;
+   outline:none;
+}
+
+.carousel-control-next{
+   .control-next{
+      position:absolute;
+      bottom:10%;
+      font-size:1.75rem;
+      letter-spacing: 2px
+   }
+}
+.carousel-caption{
+   h3{
+      font-size:0.8rem;
+      font-family:'MontserratRegular';
+      letter-spacing:4px
+   }
+   h1{
+      font-family:'Merriweather';
+      font-size:3rem
+   }
+   p{
+      font-size:0.75rem;
+      word-spacing:2px
+   }
+}
+
+@media (max-width:768px){
+   .nav-item{
+      text-align:center
+   }
+}

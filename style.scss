@@ -1,0 +1,54 @@
+@import './scss/variables';
+@import './scss/base';
+@import './scss/products';
+@import './scss/collections';
+@import './scss/footer';
+@import './scss/header';
+@import './scss/gallery';
+@import './scss/contact';
+
+
+
+
+
+
+@font-face {
+   font-family: 'Merriweather';
+   src:  url('./font/Merriweather-Regular.ttf') format('woff2'),
+
+ }
+ @font-face {
+   font-family: 'Miller';
+   src:  url('./font/Miller-Display_30501.ttf') format('woff2'),
+
+ }
+ @font-face {
+   font-family: 'MontserratBold';
+   src:  url('./font/Montserrat-Bold.ttf') format('woff2'),
+}
+@font-face {
+   font-family: 'MontserratRegular';
+   src:  url('./font/Montserrat-Regular.ttf') format('woff2'),
+
+ }
+
+ .btn{
+   border:1px solid #d5c9bcff;
+   color:#d5c9bcff;
+   margin-top:130px;
+}
+
+.btn:hover{
+   background-color:#d5c9bcff;
+   color:white
+}
+
+
+.carousel-caption{
+   top: 40%;
+   transform: translateY(-50%);
+}
+
+.carousel-inner img{
+   height: 600px;
+}

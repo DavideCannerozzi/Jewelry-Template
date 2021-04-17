@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="style.css">
+   <title>Jewelry Theme | Bootstrap</title>
+</head>
+
+<body>
+   <header>
+   <nav class="navbar navbar-expand-lg navbar-light p-0">
+     <div class="logo">
+      <a class="navbar-brand text-white ml-3" href="#">LOGO</a>
+     </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active px-5">
+            <a class="nav-link" href="#">NAVLINK_1</a>
+          </li>
+          <li class="nav-item active px-5">
+            <a class="nav-link" href="#">NAVLINK_2</a>
+          </li>
+          <li class="nav-item active px-5">
+            <a class="nav-link" href="#">NAVLINK_3</a>
+          </li>
+          <li class="nav-item active px-5">
+            <a class="nav-link" href="#">NAVLINK_4</a>
+          </li>
+         </ul>
+        <form class="form-inline mr-5">
+          <input class="search" type="search" aria-label="Search">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </form>
+      </div>
+    </nav>
+
+    <!--------------------------- Slider --------------------------->
+      
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/carousel_01.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="my-5">SUB_HEADER_01</h3>
+              <h1 class=mt-5>MAIN_HEADER_01</h1>
+              <p class="mt-4 text-white">SLIDESHOW_01</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carousel_02.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="my-5">SUB_HEADER_02</h3>
+              <h1 class="mt-5">MAIN_HEADER_02</h1>
+              <p class="mt-4 text-white">SLIDESHOW_02</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <div class="control-next">
+            <span class="text-white next-span strong">NEXT</span>
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <!--------------------------- Section 01 --------------------------->
+    
+    <main>
+      <div class="container mt-5">
+        <div class="header-collection">
+          <h2>SECTION_01</h2>
+        </div>
+      <div class="row mt-5">
+          <div class="col-sm-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat lobortis sem at elementum. Nullam porttitor finibus facilisis. Pellentesque mollis enim ligula, vel fermentum dui tincidunt ac.</p>
+          </div>
+          <div class="col-sm-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat lobortis sem at elementum. Nullam porttitor finibus facilisis. Pellentesque mollis enim ligula, vel fermentum dui tincidunt ac. Etiam et turpis quis odio ullamcorper venenatis. Morbi hendrerit magna eget erat egestas, aliquet sollicitudin risus egestas. Nulla mattis venenatis rutrum.</p>
+          </div>
+        </div>
+
+        <!--------------------------- Products Section --------------------------->
+
+        <section class="collections mt-5">
+        <div class="row">
+          <div class="col-sm-6 text-center px-0">
+            <h3 class="mt-5">DESCRIPTION</h3>
+            <h2 class="mt-4">FIRST PRODUCT</h2>
+            <p class="text-center mr-5 mt-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat lobortis sem at elementum. Nullam porttitor finibus facilisis. Pellentesque mollis enim ligula, vel fermentum dui tincidunt ac. Etiam et turpis quis odio ullamcorper venenatis.</p>
+              <button class="btn mt-3">View</button>
+          </div>
+          <div class="col-sm-6 px-0">
+            <img class="img-fluid" src="./img/product_01.jpg" alt="">
+          </div>
+
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-6  px-0">
+            <img class="img-fluid" src="./img/product_02.jpg" alt="">
+          </div>
+          <div class="col-sm-6 text-center px-0">
+            <h3 class="mt-5">DESCRIPTION</h3>
+            <h2 class="mt-4">SECOND PRODUCT</h2>
+            <p class="text-center ml-5 mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat lobortis sem at elementum. Nullam porttitor finibus facilisis. Pellentesque mollis enim ligula, vel fermentum dui tincidunt ac. Etiam et turpis quis odio ullamcorper venenatis.</p>
+              <button class="btn mt-3">View</button>
+          </div>
+        </div>
+      </section>
+      </div>
+      
+    </main>
+     <!-------- Gallery -------->
+    <h2 class="text-center my-5">Our Products</h2>
+      <div class="container grid-container">
+        <div class="grid-item image01">
+          <img src="./img/image_01.jpg" alt="">
+        </div>
+        <div class="grid-item image02">
+          <img src="./img/image_02.jpg" alt="">
+        </div>
+        <div class="grid-item image02">
+          <img src="./img/image_03.jpg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="./img/image_04.jpg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="./img/image_05.jpg" alt="">
+        </div>
+      </div>
+
+    <!-------- Contact Form -------->
+
+    <section class="contact-form text-center text-white mt-5">
+      <h2>Get In Touch</h2>
+      <p class="text-white mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <form class="form-inline">
+      <div class="form-group mx-auto mt-4">
+        <input type="email" class="form-control" placeholder="type your email">
+        <button class="text-white ml-4 p-2">ok</button>
+      </div>
+      </form>
+    </section>
+
+    <!-------- Footer -------->
+    <footer class="footer p-4">
+        <div class="row">
+          <div class="col-sm-4">
+            <ul class="text-center">
+              <li>Company Name / Logo</li>
+              <li>Address</li>
+              <li>City</li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <ul class="text-center">
+              <li><a href="#">NAV_LINK_01</a></li>
+              <li><a href="#">NAV_LINK_02</a></li>
+              <li><a href="#">NAV_LINK_03</a></li>
+              <li><a href="#">NAV_LINK_04</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <ul class="text-center">
+              <li>TELEPHONE NUMBER</li>
+              <li><u><a href="mailto:webmaster@example.com">companyname@info.com</a></u></li>
+              <li><a href="#">FACEBOOK</a></li>
+              <li><a href="#">INSTAGRAM</a></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+    <div class="sub-footer p-3">
+      <div class="container d-flex justify-content-between">
+        <span>Privacy Policy</span>
+        <span>website by <u><a href="https://davidecannerozzi.com">Davide Cannerozzi</a></u></span>
+      </div>
+    </div>
+
+   
+
+
+
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
+</body>
+</html>
